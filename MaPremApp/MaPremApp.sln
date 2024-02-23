@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaPremApp", "MaPremApp\MaPremApp.csproj", "{778E4C07-867E-4B31-AA1F-0516AFA885C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoMagasinMethode", "ExoMagasinMethode\ExoMagasinMethode.csproj", "{65F7D6BF-5AC2-4071-A798-4DEFDDD010EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{778E4C07-867E-4B31-AA1F-0516AFA885C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{778E4C07-867E-4B31-AA1F-0516AFA885C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{778E4C07-867E-4B31-AA1F-0516AFA885C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{778E4C07-867E-4B31-AA1F-0516AFA885C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F7D6BF-5AC2-4071-A798-4DEFDDD010EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F7D6BF-5AC2-4071-A798-4DEFDDD010EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F7D6BF-5AC2-4071-A798-4DEFDDD010EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F7D6BF-5AC2-4071-A798-4DEFDDD010EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {130AF77E-BFB2-474A-AF4F-120A00509BBB}
+	EndGlobalSection
+EndGlobal
