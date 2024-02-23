@@ -34,10 +34,13 @@ namespace OrienteObjet
             get { return _Endu; }
             set { _Endu = value; }
         }
-        public int CalculCaract()
+        public void CalculCaract()
         {
             Random rnd = new Random();
-            return rnd.Next(10, 20);
+            Force = rnd.Next(10, 20);
+            Endu = rnd.Next(10, 20);
+            Sagesse = rnd.Next(10, 20);
+            Intel = rnd.Next(10, 20);
         }
     }
 }
