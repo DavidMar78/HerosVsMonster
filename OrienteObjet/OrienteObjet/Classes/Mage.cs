@@ -4,25 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OrienteObjet
+namespace OrienteObjet.Classes
 {
     internal class Mage
     {
         public string _Nom;
         int _Force;
-        int _Endu; 
+        int _Endu;
         int _Intel;
         int _Sagesse;
 
         public int Sagesse
         {
-            get { return _Sagesse; }
-            set { _Sagesse = value + 2; }
+            get { return _Sagesse +2; }
+            set { _Sagesse = value ; }
         }
         public int Intel
         {
-            get { return _Intel; }
-            set { _Intel = value + 4; }
+            get { return _Intel +4; }
+            set { _Intel = value ; }
         }
         public int Force
         {

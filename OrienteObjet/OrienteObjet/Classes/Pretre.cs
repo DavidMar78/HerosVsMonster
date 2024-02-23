@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OrienteObjet
+namespace OrienteObjet.Classes
 {
     internal class Pretre
     {
@@ -16,13 +16,13 @@ namespace OrienteObjet
 
         public int Sagesse
         {
-            get { return _Sagesse; }
-            set { _Sagesse = value + 4; }
+            get { return _Sagesse +4; }
+            set { _Sagesse = value ; }
         }
         public int Intel
         {
-            get { return _Intel; }
-            set { _Intel = value + 2; }
+            get { return _Intel +2; }
+            set { _Intel = value ; }
         }
         public int Force
         {

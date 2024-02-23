@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OrienteObjet
+namespace OrienteObjet.Classes
 {
     internal class Guerrier
     {
@@ -16,13 +16,13 @@ namespace OrienteObjet
 
         public int Force
         {
-            get { return _Force; }
-            set { _Force = value +3; }
+            get { return _Force +3 ; }
+            set { _Force = value ; }
         }
         public int Endu
         {
-            get { return _Endu; }
-            set { _Endu = value +3; }
+            get { return _Endu +3 ; }
+            set { _Endu = value ; }
         }
         public int Sagesse
         {
@@ -38,10 +38,10 @@ namespace OrienteObjet
         public void CalculCaract()
         {
             Random rnd = new Random();
-            Force =  rnd.Next(10,20);
-            Endu =  rnd.Next(10,20);
-            Sagesse =  rnd.Next(10,20);
-            Intel =  rnd.Next(10,20);
+            Force = rnd.Next(10, 20);
+            Endu = rnd.Next(10, 20);
+            Sagesse = rnd.Next(10, 20);
+            Intel = rnd.Next(10, 20);
         }
 
     }
