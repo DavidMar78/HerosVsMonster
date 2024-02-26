@@ -24,14 +24,14 @@ using OrienteObjet.Classes;
 Guerrier guerrier = new Guerrier();
 guerrier._Nom = "Lapidis";
 guerrier.CalculCaract();
-Console.WriteLine($" Nom de votre guerrier : {guerrier._Nom} \n Force = {guerrier.Force} \n Endu = {guerrier.Endu} \n Intel = {guerrier.Intel} \n Sagesse = {guerrier.Sagesse} \n");
+guerrier.afficherCaract();
 
 Pretre pretre = new Pretre();
 pretre._Nom= "Nainkitu";
 pretre.CalculCaract();
-Console.WriteLine($" Nom de votre pretre : {pretre._Nom} \n Force = {pretre.Force} \n Endu = {pretre.Endu} \n Intel = {pretre.Intel} \n Sagesse = {pretre.Sagesse}\n");
+pretre.afficherCaract();
 
 Mage mage = new Mage();
 mage._Nom = "Subzero";
 mage.CalculCaract();
-Console.WriteLine($" Nom de votre mage : {mage._Nom} \n Force = {mage.Force} \n Endu = {mage.Endu} \n Intel = {mage.Intel} \n Sagesse = {mage.Sagesse}");
+mage.afficherCaract();
